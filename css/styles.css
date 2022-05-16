@@ -1,0 +1,25 @@
+* {
+	font-family: 'Source Sans Pro', sans-serif;
+	box-sizing: border-box;
+}
+
+header {
+	font-size: 4em;
+	color: maroon;
+	text-align: center;
+}
+
+#sitelogo {
+	margin: 0px;
+}
+
+.container h1 {
+	margin: 0px;
+}
+
+#A1 p {
+	padding: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: blue;
+}
