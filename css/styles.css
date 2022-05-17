@@ -4,22 +4,77 @@
 }
 
 header {
-	font-size: 4em;
+	font-size: 2em;
 	color: maroon;
 	text-align: center;
 }
 
-#sitelogo {
-	margin: 0px;
+#LogoAni {
+	width: 540px;
+	heignt: 540px;
 }
 
 .container h1 {
-	margin: 0px;
+	font-size: 3em;
+	margin-bottom: 25px;
+}
+
+#A1 {
+	margin-bottom: 150px;
+}
+
+#lines {
+	border: solid black;
+	width: 540px;
+	height: 540px;
 }
 
 #A1 p {
-	padding: 5px;
-	margin-left: 10px;
-	margin-right: 10px;
-	background-color: blue;
+	border: solid black;
+	padding: 10px;
+	font-size: 1.5em;
+	text-align: center;
 }
+
+#A2 {
+	margin-bottom: 150px;
+}
+
+#A2 p{
+	border: solid black;
+	padding: 10px;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+#face {
+	border: solid black;
+	width: 270px;
+	height: 270px;
+}
+
+#hand {
+	border: solid black;
+	width: 270px;
+	height: 270px;
+}
+
+#A3 p {
+	border: solid black;
+	padding: 10px;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+#press {
+	border: solid black;
+	width: 270px;
+	height: 270px;
+}
+
+#learn {
+	border: solid black;
+	width: 270px;
+	height: 270px;
+}
+
