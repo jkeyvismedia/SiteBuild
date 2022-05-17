@@ -4,7 +4,7 @@ var animation = lottie.loadAnimation({
   renderer: "svg",
   loop: true,
   autoplay: true,
-  path: "jkey.json"
+  path: "media/jkey.json"
 });
 
 
@@ -13,7 +13,7 @@ var animation = lottie.loadAnimation({
   renderer: "svg",
   loop: true,
   autoplay: true,
-  path: "lines.json"
+  path: "media/lines.json"
 });
 
 var animation = lottie.loadAnimation({
@@ -21,7 +21,7 @@ var animation = lottie.loadAnimation({
   renderer: "svg",
   loop: true,
   autoplay: true,
-  path: "face.json"
+  path: "media/face.json"
 });
 
 var animation = lottie.loadAnimation({
@@ -29,7 +29,7 @@ var animation = lottie.loadAnimation({
   renderer: "svg",
   loop: true,
   autoplay: true,
-  path: "hand.json"
+  path: "media/hand.json"
 });
 
 var animation = lottie.loadAnimation({
@@ -37,7 +37,7 @@ var animation = lottie.loadAnimation({
   renderer: "svg",
   loop: true,
   autoplay: true,
-  path: "press.json"
+  path: "media/press.json"
 });
 
 var animation = lottie.loadAnimation({
@@ -45,5 +45,5 @@ var animation = lottie.loadAnimation({
   renderer: "svg",
   loop: true,
   autoplay: true,
-  path: "learn.json"
+  path: "media/learn.json"
 });

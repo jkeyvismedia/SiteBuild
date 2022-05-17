@@ -16,7 +16,7 @@ header {
 
 .container h1 {
 	font-size: 3em;
-	margin-bottom: 25px;
+	margin-bottom: 100px;
 }
 
 #A1 {
@@ -24,13 +24,11 @@ header {
 }
 
 #lines {
-	border: solid black;
 	width: 540px;
 	height: 540px;
 }
 
 #A1 p {
-	border: solid black;
 	padding: 10px;
 	font-size: 1.5em;
 	text-align: center;
@@ -41,39 +39,33 @@ header {
 }
 
 #A2 p{
-	border: solid black;
 	padding: 10px;
 	font-size: 1.5em;
 	text-align: center;
 }
 
 #face {
-	border: solid black;
 	width: 270px;
 	height: 270px;
 }
 
 #hand {
-	border: solid black;
 	width: 270px;
 	height: 270px;
 }
 
 #A3 p {
-	border: solid black;
 	padding: 10px;
 	font-size: 1.5em;
 	text-align: center;
 }
 
 #press {
-	border: solid black;
 	width: 270px;
 	height: 270px;
 }
 
 #learn {
-	border: solid black;
 	width: 270px;
 	height: 270px;
 }
