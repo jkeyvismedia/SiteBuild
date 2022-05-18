@@ -31,19 +31,3 @@ var animation = lottie.loadAnimation({
   autoplay: true,
   path: "media/hand.json"
 });
-
-var animation = lottie.loadAnimation({
-  container: document.getElementById("press"),
-  renderer: "svg",
-  loop: true,
-  autoplay: true,
-  path: "media/press.json"
-});
-
-var animation = lottie.loadAnimation({
-  container: document.getElementById("learn"),
-  renderer: "svg",
-  loop: true,
-  autoplay: true,
-  path: "media/learn.json"
-});
