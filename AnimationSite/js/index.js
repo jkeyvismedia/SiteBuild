@@ -1,8 +1,7 @@
-
 var animation = lottie.loadAnimation({
   container: document.getElementById("LogoAni"),
   renderer: "svg",
-  loop: true,
+  loop: false,
   autoplay: true,
   path: "media/jkey.json"
 });
