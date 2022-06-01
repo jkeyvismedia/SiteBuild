@@ -1,11 +1,12 @@
 * {
 	font-family: 'Source Sans Pro', sans-serif;
 	box-sizing: border-box;
+	background-color: floralwhite;
 }
 
 header {
 	font-size: 2em;
-	color: maroon;
+	color: rgb(154, 69, 154);
 	text-align: center;
 }
 
@@ -20,7 +21,7 @@ header {
 }
 
 #A1 {
-	margin-bottom: 150px;
+	margin-bottom: 200px;
 }
 
 #lines {
@@ -35,7 +36,7 @@ header {
 }
 
 #A2 {
-	margin-bottom: 150px;
+	margin-bottom: 200px;
 }
 
 #A2 p{
@@ -55,7 +56,7 @@ header {
 }
 
 #A3 {
-	margin-bottom: 100px;
+	margin-bottom: 200px;
 }
 
 #A3 p {
@@ -79,13 +80,17 @@ header {
 }
 
 iframe {
+	display: block;
+	margin: 0 auto;
 	width: 960px;
 	height: 540px;
 }
+
 #A4 p {
 	padding: 10px;
 	font-size: 1.5em;
 	text-align: center;
+	margin-top: 25px;
 	margin-left: 25%;
 	margin-right: 25%;
 
