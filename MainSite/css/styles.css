@@ -1,0 +1,60 @@
+* {
+	box-sizing: border-box;
+}
+
+#center {
+	background:antiquewhite;
+	position:absolute;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+}
+
+#logo {
+	padding:0px;
+	width:270px;
+	height:270px;
+}
+
+#OV {
+	position: absolute;
+	top:25%;
+	bottom:25%;
+	left:15%;
+	right:65%;
+}
+
+#socials {
+	position:absolute;
+	top:25%;
+	bottom:25%;
+	right:25%;
+}
+
+button {
+	background-color: antiquewhite;
+	border:none;
+}
+
+
+.paragraph {
+	display: flex;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-style: italic;
+}
+
+p {
+	margin-top:35px;
+	font-size: 1em;
+}
+
+.listItem {
+	list-style: none;
+	padding:15px;
+	width:135px;
+	height:135px;
+}
