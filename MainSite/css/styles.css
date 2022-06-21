@@ -68,5 +68,5 @@ h2 {
 .hide {
 	position:relative;
 	float:left;
-	display:block;
+	display:none;
 }
