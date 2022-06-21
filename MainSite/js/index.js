@@ -8,4 +8,6 @@ var animation = lottie.loadAnimation({
 
 window.onscroll = () => { window.scroll(0, 0); };
 
-
+function revFunction(){
+  document.getElementById("socials").style.display = "block";
+}

@@ -1,5 +1,6 @@
 * {
 	box-sizing: border-box;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 #center {
@@ -19,16 +20,17 @@
 
 #OV {
 	position: absolute;
-	top:25%;
-	bottom:25%;
+	top:28%;
+	bottom:22%;
 	left:15%;
 	right:65%;
 }
 
 #socials {
+	display:none;
 	position:absolute;
-	top:25%;
-	bottom:25%;
+	top:20%;
+	bottom:30%;
 	right:25%;
 }
 
@@ -45,16 +47,26 @@ button {
 h2 {
 	font-size: 1.5em;
 	font-style: italic;
+	padding-right: 5px;
 }
 
-p {
+#paragraph p {
 	margin-top:35px;
 	font-size: 1em;
 }
 
 .listItem {
 	list-style: none;
-	padding:15px;
+	border-radius: 10px;
+	border: transparent black;
+	padding:10px;
+	margin:10px;
 	width:135px;
 	height:135px;
+}
+
+.hide {
+	position:relative;
+	float:left;
+	display:none;
 }

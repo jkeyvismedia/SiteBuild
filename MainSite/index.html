@@ -17,7 +17,7 @@
 <header>
 	<div class="container-fluid d-flex align-items-center" id="center">
 		<div class="mx-auto" id="logo">
-			<button>
+			<button onclick="revFunction()">
 				<lottie-interactive id="logo" path="media/jkeyType.json" reset interaction="click"></lottie-interactive>
 			</button>
 		</div>
@@ -32,28 +32,34 @@
 				<p>Welcome to JKey. My name is Jacob, and I'm a digital media designer based in Florida.
 				I specialize in motion graphics and web design, with extensive experience in the Adobe Creative Suite
 				and HTML, CSS and JS forming the bedrock of my skillset. If you're interested in working together, 
-				please feel free to hit me up via the buttons over there. Thanks!</p>
+				please feel free to click the big JKey over there. Thanks!</p>
 			</div>
+		</div>
 		</div>
 	</article>
 	<article id="socials">
 		<div>
 			<ul>
+
 				<li class="listItem">
 					<a href="https://www.instagram.com/jkey_media/?hl=en" target="_blank">
-						<lottie-interactive id="insta" path="media/insta.json" reset interaction="hover"></lottie-interactive>
+						<lottie-interactive id="insta" path="media/insta.json" interaction="hover"></lottie-interactive>
 					</a>
 				</li>
+				<p class="hide">@jkey_media</p>
 				<li class="listItem">
 					<a href="mailto:jkeyvismedia@gmail.com" target="_blank">
-						<lottie-interactive id="email" path="media/email.json" reset interaction="hover"></lottie-interactive>
+						<lottie-interactive id="email" path="media/email.json" interaction="hover"></lottie-interactive>
 					</a>
 				</li>
+				<p class="hide">jkeyvismedia@gmail.com</p>
 				<li class="listItem">
 					<a href="https://www.linkedin.com/in/jacob-farrell-7bba82112/" target="_blank">
-						<lottie-interactive id="Link" path="media/LinkedIn.json" reset interaction="hover"></lottie-interactive>
+						<lottie-interactive id="Link" path="media/LinkedIn.json" interaction="hover"></lottie-interactive>
 					</a>
 				</li>
+				<p class="hide">linkedIn</p>
+
 			</ul>
 		</div>
 	</article>
@@ -64,6 +70,7 @@
 <script src="js/lottie.js"></script>
 <script src="js/lottie-interactive.js"></script>
 <script src="js/index.js"></script>
+<script src="js/jquery-3.6.0.min.js"></script>
 </body>
 
 </html>
