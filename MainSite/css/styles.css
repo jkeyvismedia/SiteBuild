@@ -1,5 +1,5 @@
 * {
-	background: antiquewhite;
+	background: floralwhite;
 	box-sizing: border-box;
 	font-family: 'Source Sans Pro', sans-serif;
 }
@@ -7,7 +7,7 @@
 
 @media (max-width: 991px){
 button {
-	background-color: antiquewhite;
+	background-color: floralwhite;
 	border: none;
 }
 
@@ -17,6 +17,7 @@ button {
 
 #socials {
 	position:absolute;
+	align-items: center;
 	right:25%;
 	left:25%;
 }
@@ -41,7 +42,7 @@ button {
 
 @media (min-width: 992px) {
 #center {
-	background:antiquewhite;
+	background:floralwhite;
 	position:absolute;
 	top:0px;
 	bottom:0px;
@@ -73,7 +74,7 @@ button {
 }
 
 button {
-	background-color: antiquewhite;
+	background-color: floralwhite;
 	border:none;
 }
 
