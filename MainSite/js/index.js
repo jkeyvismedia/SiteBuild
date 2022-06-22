@@ -6,8 +6,6 @@ var animation = lottie.loadAnimation({
   path: "media/jkey.json"
 });
 
-window.onscroll = () => { window.scroll(0, 0); };
-
 function revFunction(){
   document.getElementById("socials").style.display = "block";
 }
