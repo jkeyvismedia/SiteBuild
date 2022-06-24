@@ -11,6 +11,11 @@ button {
 	border: none;
 }
 
+#logo {
+	width:140px;
+	height:140px;
+}
+
 #OV {
 	text-align: center;
 }
@@ -22,15 +27,21 @@ button {
 	left:25%;
 }
 
+.long {
+	display:none;
+}
+
+.tall {
+	display:block;
+}
+
 .listItem {
 	float:left;
 	list-style: none;
 	border-radius: 10px;
 	border: transparent black;
-	padding:10px;
-	margin:10px;
-	width:70px;
-	height:70px;
+	width:80px;
+	height:80px;
 }
 
 .hide {
@@ -38,6 +49,8 @@ button {
 	float:left;
 	display:none;
 }
+
+
 }
 
 @media (min-width: 992px) {
@@ -93,6 +106,14 @@ h2 {
 	text-align: left;
 	margin-top:35px;
 	font-size: 1em;
+}
+
+.long {
+	display:block;
+}
+
+.tall {
+	display:none;
 }
 
 .listItem {
