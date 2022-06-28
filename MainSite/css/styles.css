@@ -4,6 +4,19 @@
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
+.footer {
+	position:absolute;
+	bottom:5%;
+	left:0%;
+	right:0%;
+	font-style:italic;
+	background: transparent;
+	margin-top:25px;
+}
+
+.footer h2 {
+	font-size: .75em;
+}
 
 @media (max-width: 991px){
 button {
@@ -91,7 +104,7 @@ p {
 #socials {
 	display:none;
 	position:absolute;
-	top:10%;
+	top:5%;
 	bottom:10%;
 	right:20%;
 }
