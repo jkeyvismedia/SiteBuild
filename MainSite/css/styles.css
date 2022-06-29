@@ -6,11 +6,9 @@
 
 .footer {
 	position:absolute;
-	bottom:5%;
 	left:0%;
 	right:0%;
 	font-style:italic;
-	background: transparent;
 	margin-top:25px;
 }
 
@@ -44,10 +42,9 @@ p {
 }
 
 #socials {
-	position:absolute;
-	align-items: center;
-	right:25%;
-	left:25%;
+	position:relative;
+	right:30%;
+	left:30%;
 }
 
 .long {
@@ -59,7 +56,8 @@ p {
 }
 
 .listItem {
-	float:left;
+	padding: 5px;
+	margin:10px;
 	list-style: none;
 	border-radius: 10px;
 	border: transparent black;
